@@ -4,7 +4,7 @@ body {
 
 .box-shadow {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05),
-                0 4px 8px 0 rgba(0, 0, 0, 0.05);
+        0 4px 8px 0 rgba(0, 0, 0, 0.05);
 }
 
 #home-quote {
@@ -15,5 +15,13 @@ body {
 @media (max-width: 767px) {
     #home-quote .display-4 {
         font-size: 2.5rem;
+    }
+
+    body {
+        padding-top: 0px;
+    }
+
+    .fixed-top {
+        position: relative;
     }
 }
